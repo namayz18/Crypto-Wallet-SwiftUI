@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D07FCEC2873C04F00BEBAB6 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCEB2873C04F00BEBAB6 /* Poppins-Light.ttf */; };
+		3D07FCED2873C05300BEBAB6 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCEA2873C04500BEBAB6 /* Poppins-Regular.ttf */; };
+		3D07FCEF2873C06000BEBAB6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCEE2873C06000BEBAB6 /* Poppins-SemiBold.ttf */; };
+		3D07FCF12873C07900BEBAB6 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCF02873C07900BEBAB6 /* Poppins-Italic.ttf */; };
+		3D07FCF32873C08200BEBAB6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCF22873C08200BEBAB6 /* Poppins-Bold.ttf */; };
+		3D07FCF52873C08B00BEBAB6 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCF42873C08B00BEBAB6 /* Poppins-ExtraBold.ttf */; };
+		3D07FCF72873C0D000BEBAB6 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D07FCF62873C0D000BEBAB6 /* Poppins-Medium.ttf */; };
+		3D07FCF92873C12D00BEBAB6 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FCF82873C12C00BEBAB6 /* Font+Extensions.swift */; };
+		3D07FCFE2873CD6F00BEBAB6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FCFD2873CD6F00BEBAB6 /* SignUpView.swift */; };
+		3D07FD002873DCF300BEBAB6 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FCFF2873DCF300BEBAB6 /* LogInView.swift */; };
+		3D07FD032873DFFD00BEBAB6 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD022873DFFD00BEBAB6 /* VerificationView.swift */; };
+		3D07FD052873E32F00BEBAB6 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD042873E32F00BEBAB6 /* OTPView.swift */; };
+		3D07FD082873F08C00BEBAB6 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 3D07FD072873F08C00BEBAB6 /* Introspect */; };
+		3D07FD0A2873FB5500BEBAB6 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD092873FB5500BEBAB6 /* PasscodeView.swift */; };
+		3D07FD112874229500BEBAB6 /* PasscodeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD102874229500BEBAB6 /* PasscodeControl.swift */; };
+		3D07FD13287422CF00BEBAB6 /* NumPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD12287422CF00BEBAB6 /* NumPad.swift */; };
+		3D07FD16287427B000BEBAB6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD15287427B000BEBAB6 /* WelcomeView.swift */; };
+		3D07FD19287429AA00BEBAB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD18287429AA00BEBAB6 /* MainView.swift */; };
+		3D07FD1B28742A3600BEBAB6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD1A28742A3600BEBAB6 /* MainViewModel.swift */; };
+		3D07FD1D28742DC900BEBAB6 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD1C28742DC800BEBAB6 /* RoundedCorners.swift */; };
+		3D07FD202874333200BEBAB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD1F2874333200BEBAB6 /* HomeView.swift */; };
+		3D07FD252874337A00BEBAB6 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD242874337A00BEBAB6 /* MarketView.swift */; };
+		3D07FD272874338200BEBAB6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD262874338200BEBAB6 /* HistoryView.swift */; };
+		3D07FD292874338E00BEBAB6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07FD282874338E00BEBAB6 /* AccountView.swift */; };
+		3D07FD2C28743D4A00BEBAB6 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3D07FD2B28743D4A00BEBAB6 /* SwiftUICharts */; };
+		3D9FC0012876912700239AAB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0002876912700239AAB /* Coin.swift */; };
+		3DA4D57F2872F56E00421393 /* CryptumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4D57E2872F56E00421393 /* CryptumApp.swift */; };
+		3DA4D5832872F56E00421393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4D5822872F56E00421393 /* Assets.xcassets */; };
+		3DA4D5862872F56E00421393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4D5852872F56E00421393 /* Preview Assets.xcassets */; };
+		3DA4D58D2872F78E00421393 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4D58C2872F78E00421393 /* Launch Screen.storyboard */; };
+		3DA4D5902872F9F800421393 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4D58F2872F9F800421393 /* AppView.swift */; };
+		3DA4D5922872FA3200421393 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4D5912872FA3200421393 /* OnboardingView.swift */; };
+		3DA4D59528730DDD00421393 /* FullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4D59428730DDD00421393 /* FullButton.swift */; };
+		3DA4D598287314C900421393 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4D597287314C900421393 /* Color+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D07FCEA2873C04500BEBAB6 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3D07FCEB2873C04F00BEBAB6 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		3D07FCEE2873C06000BEBAB6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3D07FCF02873C07900BEBAB6 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		3D07FCF22873C08200BEBAB6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		3D07FCF42873C08B00BEBAB6 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3D07FCF62873C0D000BEBAB6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3D07FCF82873C12C00BEBAB6 /* Font+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		3D07FCFA2873C1A300BEBAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3D07FCFD2873CD6F00BEBAB6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3D07FCFF2873DCF300BEBAB6 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		3D07FD022873DFFD00BEBAB6 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		3D07FD042873E32F00BEBAB6 /* OTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		3D07FD092873FB5500BEBAB6 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		3D07FD102874229500BEBAB6 /* PasscodeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeControl.swift; sourceTree = "<group>"; };
+		3D07FD12287422CF00BEBAB6 /* NumPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPad.swift; sourceTree = "<group>"; };
+		3D07FD15287427B000BEBAB6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3D07FD18287429AA00BEBAB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3D07FD1A28742A3600BEBAB6 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3D07FD1C28742DC800BEBAB6 /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		3D07FD1F2874333200BEBAB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D07FD242874337A00BEBAB6 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		3D07FD262874338200BEBAB6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3D07FD282874338E00BEBAB6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3D9FC0002876912700239AAB /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		3DA4D57B2872F56E00421393 /* Cryptum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA4D57E2872F56E00421393 /* CryptumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptumApp.swift; sourceTree = "<group>"; };
+		3DA4D5822872F56E00421393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA4D5852872F56E00421393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DA4D58C2872F78E00421393 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3DA4D58F2872F9F800421393 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		3DA4D5912872FA3200421393 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3DA4D59428730DDD00421393 /* FullButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullButton.swift; sourceTree = "<group>"; };
+		3DA4D597287314C900421393 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA4D5782872F56E00421393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D07FD082873F08C00BEBAB6 /* Introspect in Frameworks */,
+				3D07FD2C28743D4A00BEBAB6 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D07FCE82873C02300BEBAB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCE92873C03000BEBAB6 /* Fonts */,
+				3DA4D58C2872F78E00421393 /* Launch Screen.storyboard */,
+				3DA4D5822872F56E00421393 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D07FCE92873C03000BEBAB6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCEA2873C04500BEBAB6 /* Poppins-Regular.ttf */,
+				3D07FCEB2873C04F00BEBAB6 /* Poppins-Light.ttf */,
+				3D07FCEE2873C06000BEBAB6 /* Poppins-SemiBold.ttf */,
+				3D07FCF62873C0D000BEBAB6 /* Poppins-Medium.ttf */,
+				3D07FCF02873C07900BEBAB6 /* Poppins-Italic.ttf */,
+				3D07FCF22873C08200BEBAB6 /* Poppins-Bold.ttf */,
+				3D07FCF42873C08B00BEBAB6 /* Poppins-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D07FCFB2873CC8800BEBAB6 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCFF2873DCF300BEBAB6 /* LogInView.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		3D07FCFC2873CC9200BEBAB6 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCFD2873CD6F00BEBAB6 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3D07FD012873DFC000BEBAB6 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD022873DFFD00BEBAB6 /* VerificationView.swift */,
+				3D07FD0C2873FC6400BEBAB6 /* Views */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		3D07FD0B2873FB5900BEBAB6 /* PasscodeView */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD092873FB5500BEBAB6 /* PasscodeView.swift */,
+				3D07FD0F2874228800BEBAB6 /* Views */,
+			);
+			path = PasscodeView;
+			sourceTree = "<group>";
+		};
+		3D07FD0C2873FC6400BEBAB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD042873E32F00BEBAB6 /* OTPView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D07FD0F2874228800BEBAB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD102874229500BEBAB6 /* PasscodeControl.swift */,
+				3D07FD12287422CF00BEBAB6 /* NumPad.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D07FD142874276300BEBAB6 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD15287427B000BEBAB6 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		3D07FD172874299700BEBAB6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD18287429AA00BEBAB6 /* MainView.swift */,
+				3D07FD1A28742A3600BEBAB6 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D07FD1E2874331800BEBAB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD1F2874333200BEBAB6 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D07FD212874333800BEBAB6 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD242874337A00BEBAB6 /* MarketView.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		3D07FD222874334300BEBAB6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD262874338200BEBAB6 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3D07FD232874334F00BEBAB6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD282874338E00BEBAB6 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		3D9FBFFF2876910C00239AAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D9FC0002876912700239AAB /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DA4D5722872F56E00421393 = {
+			isa = PBXGroup;
+			children = (
+				3DA4D57D2872F56E00421393 /* Cryptum */,
+				3DA4D57C2872F56E00421393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA4D57C2872F56E00421393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4D57B2872F56E00421393 /* Cryptum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA4D57D2872F56E00421393 /* Cryptum */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCFA2873C1A300BEBAB6 /* Info.plist */,
+				3DA4D57E2872F56E00421393 /* CryptumApp.swift */,
+				3D9FBFFF2876910C00239AAB /* Model */,
+				3DA4D58E2872F99E00421393 /* Scene */,
+				3DA4D5962873148B00421393 /* Extensions */,
+				3DA4D599287314F400421393 /* Components */,
+				3D07FCE82873C02300BEBAB6 /* Resources */,
+				3DA4D5842872F56E00421393 /* Preview Content */,
+			);
+			path = Cryptum;
+			sourceTree = "<group>";
+		};
+		3DA4D5842872F56E00421393 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4D5852872F56E00421393 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DA4D58E2872F99E00421393 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4D58F2872F9F800421393 /* AppView.swift */,
+				3DA4D5932872FA5E00421393 /* Onboarding */,
+				3D07FCFC2873CC9200BEBAB6 /* SignUp */,
+				3D07FCFB2873CC8800BEBAB6 /* LogIn */,
+				3D07FD012873DFC000BEBAB6 /* Verification */,
+				3D07FD0B2873FB5900BEBAB6 /* PasscodeView */,
+				3D07FD142874276300BEBAB6 /* Welcome */,
+				3D07FD172874299700BEBAB6 /* Main */,
+				3D07FD1E2874331800BEBAB6 /* Home */,
+				3D07FD212874333800BEBAB6 /* Market */,
+				3D07FD222874334300BEBAB6 /* History */,
+				3D07FD232874334F00BEBAB6 /* Account */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		3DA4D5932872FA5E00421393 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4D5912872FA3200421393 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3DA4D5962873148B00421393 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FCF82873C12C00BEBAB6 /* Font+Extensions.swift */,
+				3DA4D597287314C900421393 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DA4D599287314F400421393 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3D07FD1C28742DC800BEBAB6 /* RoundedCorners.swift */,
+				3DA4D59428730DDD00421393 /* FullButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA4D57A2872F56E00421393 /* Cryptum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA4D5892872F56E00421393 /* Build configuration list for PBXNativeTarget "Cryptum" */;
+			buildPhases = (
+				3DA4D5772872F56E00421393 /* Sources */,
+				3DA4D5782872F56E00421393 /* Frameworks */,
+				3DA4D5792872F56E00421393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptum;
+			packageProductDependencies = (
+				3D07FD072873F08C00BEBAB6 /* Introspect */,
+				3D07FD2B28743D4A00BEBAB6 /* SwiftUICharts */,
+			);
+			productName = Cryptum;
+			productReference = 3DA4D57B2872F56E00421393 /* Cryptum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA4D5732872F56E00421393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3DA4D57A2872F56E00421393 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DA4D5762872F56E00421393 /* Build configuration list for PBXProject "Cryptum" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA4D5722872F56E00421393;
+			packageReferences = (
+				3D07FD062873F08C00BEBAB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				3D07FD2A28743D4A00BEBAB6 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 3DA4D57C2872F56E00421393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA4D57A2872F56E00421393 /* Cryptum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA4D5792872F56E00421393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA4D58D2872F78E00421393 /* Launch Screen.storyboard in Resources */,
+				3D07FCF52873C08B00BEBAB6 /* Poppins-ExtraBold.ttf in Resources */,
+				3DA4D5862872F56E00421393 /* Preview Assets.xcassets in Resources */,
+				3D07FCF12873C07900BEBAB6 /* Poppins-Italic.ttf in Resources */,
+				3D07FCF32873C08200BEBAB6 /* Poppins-Bold.ttf in Resources */,
+				3DA4D5832872F56E00421393 /* Assets.xcassets in Resources */,
+				3D07FCEF2873C06000BEBAB6 /* Poppins-SemiBold.ttf in Resources */,
+				3D07FCEC2873C04F00BEBAB6 /* Poppins-Light.ttf in Resources */,
+				3D07FCED2873C05300BEBAB6 /* Poppins-Regular.ttf in Resources */,
+				3D07FCF72873C0D000BEBAB6 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA4D5772872F56E00421393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D07FCF92873C12D00BEBAB6 /* Font+Extensions.swift in Sources */,
+				3DA4D598287314C900421393 /* Color+Extensions.swift in Sources */,
+				3DA4D5922872FA3200421393 /* OnboardingView.swift in Sources */,
+				3D07FD112874229500BEBAB6 /* PasscodeControl.swift in Sources */,
+				3D07FCFE2873CD6F00BEBAB6 /* SignUpView.swift in Sources */,
+				3D07FD252874337A00BEBAB6 /* MarketView.swift in Sources */,
+				3DA4D57F2872F56E00421393 /* CryptumApp.swift in Sources */,
+				3DA4D59528730DDD00421393 /* FullButton.swift in Sources */,
+				3D07FD052873E32F00BEBAB6 /* OTPView.swift in Sources */,
+				3D07FD032873DFFD00BEBAB6 /* VerificationView.swift in Sources */,
+				3D07FD202874333200BEBAB6 /* HomeView.swift in Sources */,
+				3D07FD1D28742DC900BEBAB6 /* RoundedCorners.swift in Sources */,
+				3D07FD002873DCF300BEBAB6 /* LogInView.swift in Sources */,
+				3D07FD13287422CF00BEBAB6 /* NumPad.swift in Sources */,
+				3D07FD0A2873FB5500BEBAB6 /* PasscodeView.swift in Sources */,
+				3DA4D5902872F9F800421393 /* AppView.swift in Sources */,
+				3D07FD19287429AA00BEBAB6 /* MainView.swift in Sources */,
+				3D07FD272874338200BEBAB6 /* HistoryView.swift in Sources */,
+				3D07FD292874338E00BEBAB6 /* AccountView.swift in Sources */,
+				3D07FD16287427B000BEBAB6 /* WelcomeView.swift in Sources */,
+				3D9FC0012876912700239AAB /* Coin.swift in Sources */,
+				3D07FD1B28742A3600BEBAB6 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DA4D5872872F56E00421393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA4D5882872F56E00421393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA4D58A2872F56E00421393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptum/Preview Content\"";
+				DEVELOPMENT_TEAM = V8Z7X523JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptum/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prayogshala.Cryptum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA4D58B2872F56E00421393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptum/Preview Content\"";
+				DEVELOPMENT_TEAM = V8Z7X523JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptum/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prayogshala.Cryptum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA4D5762872F56E00421393 /* Build configuration list for PBXProject "Cryptum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA4D5872872F56E00421393 /* Debug */,
+				3DA4D5882872F56E00421393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA4D5892872F56E00421393 /* Build configuration list for PBXNativeTarget "Cryptum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA4D58A2872F56E00421393 /* Debug */,
+				3DA4D58B2872F56E00421393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D07FD062873F08C00BEBAB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		3D07FD2A28743D4A00BEBAB6 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D07FD072873F08C00BEBAB6 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D07FD062873F08C00BEBAB6 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		3D07FD2B28743D4A00BEBAB6 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D07FD2A28743D4A00BEBAB6 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DA4D5732872F56E00421393 /* Project object */;
+}
